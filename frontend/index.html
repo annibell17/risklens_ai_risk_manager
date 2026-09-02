@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RiskLens — AI Risk Manager</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+<div class="app">
+
+    <!-- =====================================================
+         SIDEBAR
+         ===================================================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                R
+            </div>
+
+            <div>
+                <h1>RiskLens</h1>
+                <span>AI Risk Manager</span>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <button
+                class="nav-item active"
+                id="riskAssessmentNav"
+            >
+                <span>◈</span>
+                Risk Assessment
+            </button>
+
+
+            <button
+                class="nav-item"
+                id="transactionsNav"
+            >
+                <span>▣</span>
+                Transactions
+            </button>
+
+
+            <button
+                class="nav-item"
+                id="analyticsNav"
+            >
+                <span>◌</span>
+                Analytics
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <div class="status-dot"></div>
+
+            <div>
+                <strong>Risk Engine Online</strong>
+                <small>XGBoost • v0.2.0</small>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
+    <main class="main">
+
+
+        <!-- =================================================
+             RISK ASSESSMENT PAGE
+             ================================================= -->
+
+        <div
+            id="assessmentPage"
+            class="page"
+        >
+
+            <!-- TOP BAR -->
+
+            <header class="topbar">
+
+                <div>
+
+                    <p class="eyebrow">
+                        TRANSACTION SECURITY
+                    </p>
+
+                    <h2>
+                        Risk Assessment
+                    </h2>
+
+                    <p class="subtitle">
+                        Evaluate transaction risk using behavioural intelligence.
+                    </p>
+
+                </div>
+
+
+                <div class="system-status">
+
+                    <span class="status-dot"></span>
+
+                    API Connected
+
+                </div>
+
+            </header>
+
+
+
+            <!-- TRANSACTION INPUT -->
+
+            <section class="card assessment-card">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <h3>
+                            Transaction Details
+                        </h3>
+
+                        <p>
+                            Enter transaction information to assess risk.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+
+                    <!-- CUSTOMER -->
+
+                    <div class="form-group">
+
+                        <label for="customerId">
+                            Customer ID
+                        </label>
+
+                        <input
+                            id="customerId"
+                            type="number"
+                            placeholder="e.g. 596"
+                        >
+
+                    </div>
+
+
+
+                    <!-- TERMINAL -->
+
+                    <div class="form-group">
+
+                        <label for="terminalId">
+                            Terminal ID
+                        </label>
+
+                        <input
+                            id="terminalId"
+                            type="number"
+                            placeholder="e.g. 3156"
+                        >
+
+                    </div>
+
+
+
+                    <!-- AMOUNT -->
+
+                    <div class="form-group">
+
+                        <label for="amount">
+                            Transaction Amount
+                        </label>
+
+                        <div class="input-prefix">
+
+                            <span>₹</span>
+
+                            <input
+                                id="amount"
+                                type="number"
+                                step="0.01"
+                                placeholder="250.00"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- TIMESTAMP -->
+
+                    <div class="form-group">
+
+                        <label for="timestamp">
+                            Timestamp
+                        </label>
+
+                        <input
+                            id="timestamp"
+                            type="datetime-local"
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- BUTTON -->
+
+                <div class="form-actions">
+
+                    <button
+                        id="assessButton"
+                        class="primary-button"
+                        type="button"
+                        onclick="assessTransaction()"
+                    >
+
+                        <span>
+                            Assess Transaction
+                        </span>
+
+                        <span class="arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 RESULTS
+                 ================================================= -->
+
+            <section
+                id="results"
+                class="results hidden"
+            >
+
+
+                <!-- RISK SCORE -->
+
+                <div class="card risk-card">
+
+                    <div class="risk-header">
+
+                        <div>
+
+                            <p class="eyebrow">
+                                AI RISK SCORE
+                            </p>
+
+                            <h3 id="riskLevel">
+                                —
+                            </h3>
+
+                        </div>
+
+
+                        <div
+                            id="riskBadge"
+                            class="risk-badge"
+                        >
+                            —
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="risk-score-container">
+
+                        <div
+                            id="riskScore"
+                            class="risk-score"
+                        >
+                            0%
+                        </div>
+
+
+                        <div class="risk-bar">
+
+                            <div
+                                id="riskBar"
+                                class="risk-bar-fill"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="decision">
+
+                        <span class="decision-label">
+                            RECOMMENDED ACTION
+                        </span>
+
+                        <strong id="action">
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- EXPLANATION -->
+
+                <div class="card">
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <h3>
+                                Why was this flagged?
+                            </h3>
+
+                            <p id="summary">
+                                —
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="reasons"
+                        class="reasons"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- BEHAVIOURAL SIGNALS -->
+
+                <div class="card">
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <h3>
+                                Behavioural Profile
+                            </h3>
+
+                            <p>
+                                Historical signals used by the risk engine.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="signals"
+                        class="signals-grid"
+                    ></div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- EMPTY STATE -->
+
+            <section
+                id="emptyState"
+                class="empty-state"
+            >
+
+                <div class="empty-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    Ready to assess a transaction
+                </h3>
+
+                <p>
+                    RiskLens will analyse transaction behaviour,
+                    customer history and terminal activity.
+                </p>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- =================================================
+             TRANSACTIONS PAGE
+             ================================================= -->
+
+        <div
+            id="transactionsPage"
+            class="page hidden"
+        >
+
+            <header class="topbar">
+
+                <div>
+
+                    <p class="eyebrow">
+                        TRANSACTION MONITORING
+                    </p>
+
+                    <h2>
+                        Transactions
+                    </h2>
+
+                    <p class="subtitle">
+                        Review transactions assessed by the RiskLens engine.
+                    </p>
+
+                </div>
+
+
+                <div class="system-status">
+
+                    <span class="status-dot"></span>
+
+                    History Connected
+
+                </div>
+
+            </header>
+
+
+
+            <section class="card">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <h3>
+                            Transaction History
+                        </h3>
+
+                        <p id="transactionCount">
+                            Loading transactions...
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="table-container">
+
+                    <table class="transaction-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Customer
+                                </th>
+
+                                <th>
+                                    Terminal
+                                </th>
+
+                                <th>
+                                    Amount
+                                </th>
+
+                                <th>
+                                    Risk
+                                </th>
+
+                                <th>
+                                    Level
+                                </th>
+
+                                <th>
+                                    Action
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody id="transactionTableBody">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+     ========================================================= -->
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

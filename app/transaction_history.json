@@ -1,0 +1,2331 @@
+[
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2026-08-30 10:00"
+        },
+        "risk_score": 0.957,
+        "risk_percentage": 95.7,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.8x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 11.6).",
+                "Transaction amount is 6.7x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 123,
+            "customer_average_amount": 42.81,
+            "customer_amount_ratio": 5.84,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 17,
+            "terminal_average_amount": 37.1,
+            "terminal_amount_ratio": 6.74,
+            "customer_amount_zscore": 11.55,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2026-08-30 10:30:00"
+        },
+        "risk_score": 0.957,
+        "risk_percentage": 95.7,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.8x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 11.6).",
+                "Transaction amount is 6.7x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 123,
+            "customer_average_amount": 42.81,
+            "customer_amount_ratio": 5.84,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 17,
+            "terminal_average_amount": 37.1,
+            "terminal_amount_ratio": 6.74,
+            "customer_amount_zscore": 11.55,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2026-08-30 10:30:00"
+        },
+        "risk_score": 0.957,
+        "risk_percentage": 95.7,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.8x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 11.6).",
+                "Transaction amount is 6.7x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 123,
+            "customer_average_amount": 42.81,
+            "customer_amount_ratio": 5.84,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 17,
+            "terminal_average_amount": 37.1,
+            "terminal_amount_ratio": 6.74,
+            "customer_amount_zscore": 11.55,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2012-04-15 14:32"
+        },
+        "risk_score": 0.0008,
+        "risk_percentage": 0.08,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 0,
+            "customer_average_amount": 0.0,
+            "customer_amount_ratio": 0.0,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 0,
+            "terminal_average_amount": 0.0,
+            "terminal_amount_ratio": 0.0,
+            "customer_amount_zscore": 0.0,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3129,
+            "amount": 250.0,
+            "timestamp": "2012-04-15 14:32"
+        },
+        "risk_score": 0.0008,
+        "risk_percentage": 0.08,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 0,
+            "customer_average_amount": 0.0,
+            "customer_amount_ratio": 0.0,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 0,
+            "terminal_average_amount": 0.0,
+            "terminal_amount_ratio": 0.0,
+            "customer_amount_zscore": 0.0,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3129,
+            "amount": 250.0,
+            "timestamp": "2012-04-15 14:32"
+        },
+        "risk_score": 0.0008,
+        "risk_percentage": 0.08,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 0,
+            "customer_average_amount": 0.0,
+            "customer_amount_ratio": 0.0,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 0,
+            "terminal_average_amount": 0.0,
+            "terminal_amount_ratio": 0.0,
+            "customer_amount_zscore": 0.0,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2012-04-15 14:32"
+        },
+        "risk_score": 0.0008,
+        "risk_percentage": 0.08,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 0,
+            "customer_average_amount": 0.0,
+            "customer_amount_ratio": 0.0,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 0,
+            "terminal_transaction_count": 0,
+            "terminal_average_amount": 0.0,
+            "terminal_amount_ratio": 0.0,
+            "customer_amount_zscore": 0.0,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9924,
+        "risk_percentage": 99.24,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 3.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 16,
+            "terminal_average_amount": 65.68,
+            "terminal_amount_ratio": 3.81,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3156,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.9905,
+        "risk_percentage": 99.05,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Transaction amount is 7.8x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 9,
+            "terminal_average_amount": 31.95,
+            "terminal_amount_ratio": 7.83,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": true
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.994,
+        "risk_percentage": 99.4,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 4.3x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 4.27,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 25.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.017,
+        "risk_percentage": 1.7,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 0.56,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 0.43,
+            "customer_amount_zscore": -1.03,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 754.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.8946,
+        "risk_percentage": 89.46,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 16.9x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 37.1).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 12.9x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 16.88,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 12.88,
+            "customer_amount_zscore": 37.12,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 250.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.8764,
+        "risk_percentage": 87.64,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 5.6x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 10.7).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 4.3x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 5.6,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 4.27,
+            "customer_amount_zscore": 10.75,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 8.0,
+            "timestamp": "2018-04-15 14:32"
+        },
+        "risk_score": 0.0158,
+        "risk_percentage": 1.58,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 0.18,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 0.14,
+            "customer_amount_zscore": -1.92,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 81.0,
+            "timestamp": "2018-04-15 14:33"
+        },
+        "risk_score": 0.0307,
+        "risk_percentage": 3.07,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 1.81,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 1.38,
+            "customer_amount_zscore": 1.9,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 85.0,
+            "timestamp": "2018-04-15 14:34"
+        },
+        "risk_score": 0.021,
+        "risk_percentage": 2.1,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 1.9,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 1.45,
+            "customer_amount_zscore": 2.11,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 596,
+            "terminal_id": 3150,
+            "amount": 8521.0,
+            "timestamp": "2018-04-15 14:35"
+        },
+        "risk_score": 0.8946,
+        "risk_percentage": 89.46,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 190.8x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 443.6).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 145.5x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 57,
+            "customer_average_amount": 44.66,
+            "customer_amount_ratio": 190.78,
+            "customer_transactions_1h": 1,
+            "customer_transactions_24h": 1,
+            "terminal_transaction_count": 5,
+            "terminal_average_amount": 58.55,
+            "terminal_amount_ratio": 145.53,
+            "customer_amount_zscore": 443.62,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 999,
+            "terminal_id": 9999,
+            "amount": 852.0,
+            "timestamp": "2018-04-15 14:35"
+        },
+        "risk_score": 0.9883,
+        "risk_percentage": 98.83,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 8.4x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 17.3).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 14.5x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 24,
+            "customer_average_amount": 101.28,
+            "customer_amount_ratio": 8.41,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 2,
+            "terminal_transaction_count": 16,
+            "terminal_average_amount": 58.89,
+            "terminal_amount_ratio": 14.47,
+            "customer_amount_zscore": 17.27,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 810,
+            "terminal_id": 2521,
+            "amount": 169.0,
+            "timestamp": "2018-04-15 14:35"
+        },
+        "risk_score": 0.0306,
+        "risk_percentage": 3.06,
+        "risk_level": "LOW",
+        "action": "APPROVE",
+        "explanation": {
+            "summary": "Transaction appears consistent with normal behavioural patterns.",
+            "reasons": [
+                "Customer has not previously used this terminal."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 52,
+            "customer_average_amount": 102.71,
+            "customer_amount_ratio": 1.65,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 3,
+            "terminal_transaction_count": 18,
+            "terminal_average_amount": 76.45,
+            "terminal_amount_ratio": 2.21,
+            "customer_amount_zscore": 1.42,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    },
+    {
+        "transaction": {
+            "customer_id": 810,
+            "terminal_id": 2521,
+            "amount": 1690000.0,
+            "timestamp": "2018-04-15 14:35"
+        },
+        "risk_score": 0.9814,
+        "risk_percentage": 98.14,
+        "risk_level": "HIGH",
+        "action": "BLOCK",
+        "explanation": {
+            "summary": "Transaction shows multiple high-risk behavioural signals.",
+            "reasons": [
+                "Transaction amount is 16453.7x the customer's typical amount.",
+                "Transaction amount is a significant statistical outlier for this customer (Z-score: 36208.0).",
+                "Customer has not previously used this terminal.",
+                "Transaction amount is 22106.6x the terminal's typical transaction amount."
+            ]
+        },
+        "behavioural_signals": {
+            "customer_transaction_count": 52,
+            "customer_average_amount": 102.71,
+            "customer_amount_ratio": 16453.72,
+            "customer_transactions_1h": 0,
+            "customer_transactions_24h": 3,
+            "terminal_transaction_count": 18,
+            "terminal_average_amount": 76.45,
+            "terminal_amount_ratio": 22106.59,
+            "customer_amount_zscore": 36207.96,
+            "known_customer_terminal": false
+        },
+        "thresholds": {
+            "low": 0.4,
+            "high": 0.6
+        }
+    }
+]
